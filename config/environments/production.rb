@@ -99,7 +99,7 @@ Rails.application.configure do
     :authentication => :plain,
     :user_name      => ENV['gmail_username'],
     :password       => ENV['gmail_password'],
-    :domain         => 'heroku.com',
+    # :domain         => 'heroku.com',
     :enable_starttls_auto => true
   }
 
